@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "status": {
+      "type": "string"
+    },
+    "place_id": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "reference": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "status",
+    "place_id",
+    "scope",
+    "reference",
+    "id"
+  ]
+}
