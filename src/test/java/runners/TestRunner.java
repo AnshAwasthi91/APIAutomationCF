@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features="src/test/resources/features",
 		glue= {"stepDefinations"},
-		//tags = {"@AddPlace"},
+		tags = {"@AddPlace"},
 		plugin ={"json:target/jsonReports/cucumber-report.json",
 				"html:target/htmlReports/cucumber-report.html",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
